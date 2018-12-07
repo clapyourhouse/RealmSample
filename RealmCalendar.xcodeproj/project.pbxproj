@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED6FC17521BA52B500B25DDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FC17421BA52B500B25DDF /* AppDelegate.swift */; };
+		ED6FC17721BA52B500B25DDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FC17621BA52B500B25DDF /* ViewController.swift */; };
+		ED6FC17A21BA52B500B25DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6FC17821BA52B500B25DDF /* Main.storyboard */; };
+		ED6FC17C21BA52B800B25DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6FC17B21BA52B800B25DDF /* Assets.xcassets */; };
+		ED6FC17F21BA52B800B25DDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6FC17D21BA52B800B25DDF /* LaunchScreen.storyboard */; };
+		ED6FC18A21BA52B800B25DDF /* RealmCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FC18921BA52B800B25DDF /* RealmCalendarTests.swift */; };
+		ED6FC19521BA52B800B25DDF /* RealmCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FC19421BA52B800B25DDF /* RealmCalendarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED6FC18621BA52B800B25DDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6FC16921BA52B500B25DDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6FC17021BA52B500B25DDF;
+			remoteInfo = RealmCalendar;
+		};
+		ED6FC19121BA52B800B25DDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6FC16921BA52B500B25DDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6FC17021BA52B500B25DDF;
+			remoteInfo = RealmCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED6FC17121BA52B500B25DDF /* RealmCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6FC17421BA52B500B25DDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED6FC17621BA52B500B25DDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED6FC17921BA52B500B25DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED6FC17B21BA52B800B25DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED6FC17E21BA52B800B25DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED6FC18021BA52B800B25DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6FC18521BA52B800B25DDF /* RealmCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6FC18921BA52B800B25DDF /* RealmCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmCalendarTests.swift; sourceTree = "<group>"; };
+		ED6FC18B21BA52B800B25DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6FC19021BA52B800B25DDF /* RealmCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6FC19421BA52B800B25DDF /* RealmCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmCalendarUITests.swift; sourceTree = "<group>"; };
+		ED6FC19621BA52B800B25DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED6FC16E21BA52B500B25DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6FC18221BA52B800B25DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6FC18D21BA52B800B25DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED6FC16821BA52B500B25DDF = {
+			isa = PBXGroup;
+			children = (
+				ED6FC17321BA52B500B25DDF /* RealmCalendar */,
+				ED6FC18821BA52B800B25DDF /* RealmCalendarTests */,
+				ED6FC19321BA52B800B25DDF /* RealmCalendarUITests */,
+				ED6FC17221BA52B500B25DDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED6FC17221BA52B500B25DDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED6FC17121BA52B500B25DDF /* RealmCalendar.app */,
+				ED6FC18521BA52B800B25DDF /* RealmCalendarTests.xctest */,
+				ED6FC19021BA52B800B25DDF /* RealmCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED6FC17321BA52B500B25DDF /* RealmCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				ED6FC17421BA52B500B25DDF /* AppDelegate.swift */,
+				ED6FC17621BA52B500B25DDF /* ViewController.swift */,
+				ED6FC17821BA52B500B25DDF /* Main.storyboard */,
+				ED6FC17B21BA52B800B25DDF /* Assets.xcassets */,
+				ED6FC17D21BA52B800B25DDF /* LaunchScreen.storyboard */,
+				ED6FC18021BA52B800B25DDF /* Info.plist */,
+			);
+			path = RealmCalendar;
+			sourceTree = "<group>";
+		};
+		ED6FC18821BA52B800B25DDF /* RealmCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED6FC18921BA52B800B25DDF /* RealmCalendarTests.swift */,
+				ED6FC18B21BA52B800B25DDF /* Info.plist */,
+			);
+			path = RealmCalendarTests;
+			sourceTree = "<group>";
+		};
+		ED6FC19321BA52B800B25DDF /* RealmCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED6FC19421BA52B800B25DDF /* RealmCalendarUITests.swift */,
+				ED6FC19621BA52B800B25DDF /* Info.plist */,
+			);
+			path = RealmCalendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED6FC17021BA52B500B25DDF /* RealmCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6FC19921BA52B800B25DDF /* Build configuration list for PBXNativeTarget "RealmCalendar" */;
+			buildPhases = (
+				ED6FC16D21BA52B500B25DDF /* Sources */,
+				ED6FC16E21BA52B500B25DDF /* Frameworks */,
+				ED6FC16F21BA52B500B25DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealmCalendar;
+			productName = RealmCalendar;
+			productReference = ED6FC17121BA52B500B25DDF /* RealmCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED6FC18421BA52B800B25DDF /* RealmCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6FC19C21BA52B800B25DDF /* Build configuration list for PBXNativeTarget "RealmCalendarTests" */;
+			buildPhases = (
+				ED6FC18121BA52B800B25DDF /* Sources */,
+				ED6FC18221BA52B800B25DDF /* Frameworks */,
+				ED6FC18321BA52B800B25DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED6FC18721BA52B800B25DDF /* PBXTargetDependency */,
+			);
+			name = RealmCalendarTests;
+			productName = RealmCalendarTests;
+			productReference = ED6FC18521BA52B800B25DDF /* RealmCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED6FC18F21BA52B800B25DDF /* RealmCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6FC19F21BA52B800B25DDF /* Build configuration list for PBXNativeTarget "RealmCalendarUITests" */;
+			buildPhases = (
+				ED6FC18C21BA52B800B25DDF /* Sources */,
+				ED6FC18D21BA52B800B25DDF /* Frameworks */,
+				ED6FC18E21BA52B800B25DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED6FC19221BA52B800B25DDF /* PBXTargetDependency */,
+			);
+			name = RealmCalendarUITests;
+			productName = RealmCalendarUITests;
+			productReference = ED6FC19021BA52B800B25DDF /* RealmCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED6FC16921BA52B500B25DDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = shogo.kitamura;
+				TargetAttributes = {
+					ED6FC17021BA52B500B25DDF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					ED6FC18421BA52B800B25DDF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ED6FC17021BA52B500B25DDF;
+					};
+					ED6FC18F21BA52B800B25DDF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ED6FC17021BA52B500B25DDF;
+					};
+				};
+			};
+			buildConfigurationList = ED6FC16C21BA52B500B25DDF /* Build configuration list for PBXProject "RealmCalendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED6FC16821BA52B500B25DDF;
+			productRefGroup = ED6FC17221BA52B500B25DDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED6FC17021BA52B500B25DDF /* RealmCalendar */,
+				ED6FC18421BA52B800B25DDF /* RealmCalendarTests */,
+				ED6FC18F21BA52B800B25DDF /* RealmCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED6FC16F21BA52B500B25DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6FC17F21BA52B800B25DDF /* LaunchScreen.storyboard in Resources */,
+				ED6FC17C21BA52B800B25DDF /* Assets.xcassets in Resources */,
+				ED6FC17A21BA52B500B25DDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6FC18321BA52B800B25DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6FC18E21BA52B800B25DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED6FC16D21BA52B500B25DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6FC17721BA52B500B25DDF /* ViewController.swift in Sources */,
+				ED6FC17521BA52B500B25DDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6FC18121BA52B800B25DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6FC18A21BA52B800B25DDF /* RealmCalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6FC18C21BA52B800B25DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6FC19521BA52B800B25DDF /* RealmCalendarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED6FC18721BA52B800B25DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6FC17021BA52B500B25DDF /* RealmCalendar */;
+			targetProxy = ED6FC18621BA52B800B25DDF /* PBXContainerItemProxy */;
+		};
+		ED6FC19221BA52B800B25DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6FC17021BA52B500B25DDF /* RealmCalendar */;
+			targetProxy = ED6FC19121BA52B800B25DDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED6FC17821BA52B500B25DDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6FC17921BA52B500B25DDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED6FC17D21BA52B800B25DDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6FC17E21BA52B800B25DDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED6FC19721BA52B800B25DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED6FC19821BA52B800B25DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED6FC19A21BA52B800B25DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealmCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acn.RealmCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED6FC19B21BA52B800B25DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealmCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acn.RealmCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED6FC19D21BA52B800B25DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealmCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acn.RealmCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealmCalendar.app/RealmCalendar";
+			};
+			name = Debug;
+		};
+		ED6FC19E21BA52B800B25DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealmCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acn.RealmCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealmCalendar.app/RealmCalendar";
+			};
+			name = Release;
+		};
+		ED6FC1A021BA52B800B25DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealmCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acn.RealmCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealmCalendar;
+			};
+			name = Debug;
+		};
+		ED6FC1A121BA52B800B25DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealmCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acn.RealmCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealmCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED6FC16C21BA52B500B25DDF /* Build configuration list for PBXProject "RealmCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6FC19721BA52B800B25DDF /* Debug */,
+				ED6FC19821BA52B800B25DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6FC19921BA52B800B25DDF /* Build configuration list for PBXNativeTarget "RealmCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6FC19A21BA52B800B25DDF /* Debug */,
+				ED6FC19B21BA52B800B25DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6FC19C21BA52B800B25DDF /* Build configuration list for PBXNativeTarget "RealmCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6FC19D21BA52B800B25DDF /* Debug */,
+				ED6FC19E21BA52B800B25DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6FC19F21BA52B800B25DDF /* Build configuration list for PBXNativeTarget "RealmCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6FC1A021BA52B800B25DDF /* Debug */,
+				ED6FC1A121BA52B800B25DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED6FC16921BA52B500B25DDF /* Project object */;
+}
