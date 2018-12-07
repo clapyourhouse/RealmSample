@@ -1,0 +1,6 @@
+framework module Pods_RealmCalendarTests {
+  umbrella header "Pods-RealmCalendarTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
