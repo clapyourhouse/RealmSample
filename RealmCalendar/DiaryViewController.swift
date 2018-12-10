@@ -22,11 +22,20 @@ class DiaryViewController: UIViewController, UITextViewDelegate {
         contextView.layer.borderWidth = 1.0
         contextView.layer.cornerRadius = 10.0
         contextView.layer.masksToBounds = true
-        // Do any additional setup after loading the view.
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         dateLabel.text = date // Labelに日付を表示
+        //テキストの読み込み
+        DispatchQueue(label: "background").async {
+            let realm = try! Realm()
+            if let savedDiary = realm.objects(Diary.self).filter("date == '\(self.date!)'").last {
+                let context = savedDiary.context
+                DispatchQueue.main.async {
+                    self.contextView.text = context
+                }
+            }
+        }
     }
     
     @IBAction func saveButtonPush(_ sender: Any) {

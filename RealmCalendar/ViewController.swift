@@ -32,7 +32,7 @@ JBDatePickerViewDelegate {
     func didSelectDay(_ dayView: JBDatePickerDayView) {
         print("day selected:\(dateFormatter.string(from: dayView.date!))")
         date = dateFormatter.string(from: dayView.date!) // 追加
-
+        
     }
     @IBAction func writeButtonPush(_ sender: Any) {
         self.performSegue(withIdentifier: "toDiary", sender: nil)
